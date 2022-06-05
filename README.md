@@ -16,6 +16,8 @@
 
   </div>
 <p>
+</p>
+<p>
 <img src="https://github.com/Matazimov/VKHACKER/blob/main/assets/guide.gif">
 
 Получите автоматизацию рутинных действий от этого репозитория! Наслаждайтесь его работой!
