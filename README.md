@@ -38,3 +38,7 @@
 Для начала вам необходимо клонировать этот репозиторий
 
 <img width="100px" src="https://github.com/Matazimov/VKHACKER/blob/main/assets/git_clone.gif" align="center">
+
+```md
+git clone https://github.com/Matazimov/VKHACKER.git
+```
