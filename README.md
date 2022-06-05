@@ -11,6 +11,10 @@
   <a href="">[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/mr_qpdb)</a>
 
   </div>
+  <div align="center">
+    <img src="http://ForTheBadge.com/images/badges/made-with-python.svg"></img>
+
+  </div>
 <p>
 <img src="https://github.com/Matazimov/VKHACKER/blob/main/assets/guide.gif">
 
