@@ -24,32 +24,39 @@
 </p>
 
 # Особенности
-
 - [Что делает этот скрипт?](#что-делает-этот-скрипт)
 - [Установка](#установка)
-  - [1 шаг](#)
+  - [1 шаг](#1-шаг)
+  - [2 шаг](#2-шаг)
+  - [3 шаг](#3-шаг)
+- [Запуск](#запуск)
 
 
 # Что делает этот скрипт?
-
 Сначала получает всех новых не просмотренных подписчиков, принимает заявки, после чего начинает добавлять пользователей со стены пользователя или сообщества. На этом его функционал не заканивается, по мере возможности будет добавляться все новый функционал. Подпишитесь на нас в , чтобы не пропустить!
 
 # Установка
-
 ## 1 шаг
-Для начала вам необходимо клонировать этот репозиторий
-
-<img src="https://github.com/Matazimov/VKHACKER/blob/main/assets/git_clone.gif" align="center">
-
+Вам необходимо клонировать этот репозиторий
+<img src="https://github.com/Matazimov/VKHACKER/blob/main/assets/git_clone.gif">
 ```bash
 git clone https://github.com/Matazimov/VKHACKER.git
 ```
 
 ## 2 шаг
-Теперь вам нужно установить зависимости
-
+Вам необходимо установить зависимости
 <img src="https://github.com/Matazimov/VKHACKER/blob/main/assets/requirements.gif">
-
 ```bash
 pip install -r requirements.txt
 ```
+
+## 3 шаг
+Вам необходимо указать свои токены в config.py
+<img src="https://github.com/Matazimov/VKHACKER/blob/main/assets/to_fill_tokens.gif">
+```bash
+vim config.py
+```
+
+# Запуск
+<img src="https://https://github.com/Matazimov/VKHACKER/blob/main/assets/start.gif">
+
