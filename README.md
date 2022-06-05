@@ -4,13 +4,13 @@
 
   <div align="center">
 
+  <p align="center">Подпишись на нас!</p>
+
   <a href="">[![Youtube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UC1-IbnSQyY7xzC3Troe8MTg)</a>
   <a href="">[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/matazimov_official)</a>
   <a href="">[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/mr_qpdb)</a>
 
   </div>
-  
-  <p align="center">Не тратье свое время на однотипные действия!</p>
 <p>
 <img src="https://github.com/Matazimov/VKHACKER/blob/main/assets/guide.gif">
 
