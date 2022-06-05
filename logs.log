@@ -1,0 +1,5 @@
+2022-06-04 13:20:06.213 | INFO     | __main__:<module>:15 - Тест
+2022-06-04 21:14:51.840 | INFO     | __main__:<module>:15 - [red italic]Тест[/red italic]
+2022-06-04 21:15:07.176 | INFO     | __main__:<module>:15 - [red italic]Тест[/red italic]
+2022-06-05 13:00:08.501 | ERROR    | VK_API.Friends.GetRequests:get_all_with_need_viewed_false:55 - {'error_code': 6, 'error_msg': 'Too many requests per second', 'request_params': [{'key': 'count', 'value': '1000'}, {'key': 'need_viewed', 'value': '0'}, {'key': 'offset', 'value': '0'}, {'key': 'v', 'value': '5.131'}, {'key': 'method', 'value': 'friends.getRequests'}, {'key': 'oauth', 'value': '1'}]}
+2022-06-05 14:30:10.361 | ERROR    | VK_API.Friends.GetRequests:get_one_with_need_viewed_false:32 - {'error_code': 5, 'error_msg': 'User authorization failed: no access_token passed.', 'request_params': [{'key': 'count', 'value': '1'}, {'key': 'need_viewed', 'value': '0'}, {'key': 'v', 'value': '5.131'}, {'key': 'method', 'value': 'friends.getRequests'}, {'key': 'oauth', 'value': '1'}]}
