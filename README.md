@@ -64,6 +64,5 @@ vim config.py
 ```
 
 # Запуск
-
-<img src="https://https://github.com/Matazimov/VKHACKER/blob/main/assets/start.gif">
+<img src="https://github.com/Matazimov/VKHACKER/blob/main/assets/start.gif">
 
