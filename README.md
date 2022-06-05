@@ -12,7 +12,7 @@
 
   </div>
   <div align="center">
-    <img src="http://ForTheBadge.com/images/badges/made-with-python.svg"></img>
+    <img src="http://ForTheBadge.com/images/badges/made-with-python.svg">
 
   </div>
 <p>
@@ -37,4 +37,4 @@
 
 Для начала вам необходимо клонировать этот репозиторий
 
-<img width="100px" src="https://github.com/Matazimov/VKHACKER/blob/main/assets/Ikonka-vkhack.png" align="center">
+<img width="100px" src="https://github.com/Matazimov/VKHACKER/blob/main/assets/git_clone.gif" align="center">
