@@ -38,6 +38,7 @@
 # Установка
 ## 1 шаг
 Вам необходимо клонировать этот репозиторий
+
 <img src="https://github.com/Matazimov/VKHACKER/blob/main/assets/git_clone.gif">
 ```bash
 git clone https://github.com/Matazimov/VKHACKER.git
@@ -45,6 +46,7 @@ git clone https://github.com/Matazimov/VKHACKER.git
 
 ## 2 шаг
 Вам необходимо установить зависимости
+
 <img src="https://github.com/Matazimov/VKHACKER/blob/main/assets/requirements.gif">
 ```bash
 pip install -r requirements.txt
@@ -52,6 +54,7 @@ pip install -r requirements.txt
 
 ## 3 шаг
 Вам необходимо указать свои токены в config.py
+
 <img src="https://github.com/Matazimov/VKHACKER/blob/main/assets/to_fill_tokens.gif">
 ```bash
 vim config.py
