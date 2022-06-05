@@ -26,7 +26,8 @@
 # Особенности
 
 - [Что делает этот скрипт?](#что-делает-этот-скрипт)
-- [Установка](#)
+- [Установка](#установка)
+  - [1 шаг](#)
 
 
 # Что делает этот скрипт?
@@ -35,10 +36,20 @@
 
 # Установка
 
+## 1 шаг
 Для начала вам необходимо клонировать этот репозиторий
 
-<img width="100px" src="https://github.com/Matazimov/VKHACKER/blob/main/assets/git_clone.gif" align="center">
+<img src="https://github.com/Matazimov/VKHACKER/blob/main/assets/git_clone.gif" align="center">
 
-```md
+```bash
 git clone https://github.com/Matazimov/VKHACKER.git
+```
+
+## 2 шаг
+Теперь вам нужно установить зависимости
+
+<img src="https://github.com/Matazimov/VKHACKER/blob/main/assets/requirements.gif">
+
+```bash
+pip install -r requirements.txt
 ```
