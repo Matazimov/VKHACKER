@@ -1,3 +1,4 @@
+from Exceptions.TooManyRequestsPerSecond import TooManyRequestsPerSecond
 from Exceptions.VKServerIsNotResponding import VKServerIsNotResponding
 from Exceptions.VKTokenError import VKTokenError
 from Exceptions.UnknownError import UnknownError
@@ -47,6 +48,8 @@ class UsersGet:
                 elif 'error' in data:
                     if data['error']['error_code'] == 5:
                         raise VKTokenError
+                    elif data['error']['error_code'] == 6:
+                        raise TooManyRequestsPerSecond
                     else:
                         logger.error(data['error'])
                         raise UnknownError
