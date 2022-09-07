@@ -101,8 +101,8 @@ class FirstMethod(GetRequests, FriendsAdd, WallGet, UsersGet, File):
                         checking_for_friendship_status = await user.get_with_friend_status(access_token, one_id)
                         if checking_for_friendship_status['response'][0]['friend_status'] == 0:
                             all_ids_from_wall_filtered.append(one_id)
-                    except TooManyRequestsPerSecond as e:
-                        print(f'[red]{e}[/red]')
+                    except TooManyRequestsPerSecond:
+                        pass
 
                 print('[yellow]Фильтрация закончена[/yellow]')
                 print('[yellow]Начинаю добавлять...[/yellow]')
@@ -118,7 +118,7 @@ class FirstMethod(GetRequests, FriendsAdd, WallGet, UsersGet, File):
                         else:
                             print(f'[blue]id{one_id}[/blue]: повторная отправка заявки')
                     except LimitOfFriendAdditions as e:
-                        print(f'[green]id{one_id}: {e}[/green]')
+                        print(f'[green]id{one_id}[/green]: {e}')
                         break
                     except CaptchaNeeded:
                         captcha_sid = await file.reader_captcha_sid()
@@ -132,11 +132,11 @@ class FirstMethod(GetRequests, FriendsAdd, WallGet, UsersGet, File):
                         else:
                             print(f'[blue]id{one_id}[/blue]: повторная отправка заявки')
                     except CannotAddThisUserToFriendsAsTheyHavePutYouOnTheirBlacklist as e:
-                        print(f'[red]id{one_id}: {e}[/red]')
+                        print(f'[red]id{one_id}[/red]: {e}')
                     except CannotAddThisUserToFriendsAsYouPutHimOnBlacklist as e:
-                        print(f'[red]id{one_id}: {e}[/red]')
+                        print(f'[red]id{one_id}[/red]: {e}')
                     except CannotAddThisUserToFriendsAsUserNotFound as e:
-                        print(f'[red]id{one_id}: {e}[/red]')
+                        print(f'[red]id{one_id}[/red]: {e}')
 
             except VKTokenError as e:
                 print(f'[red]{e}[/red]')
