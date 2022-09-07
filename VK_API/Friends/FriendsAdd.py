@@ -4,6 +4,7 @@ from Exceptions.CannotAddThisUserToFriendsAsYouPutHimOnBlacklist \
     import CannotAddThisUserToFriendsAsYouPutHimOnBlacklist
 from Exceptions.CannotAddThisUserToFriendsAsUserNotFound \
     import CannotAddThisUserToFriendsAsUserNotFound
+from Exceptions.TooManyRequestsPerSecond import TooManyRequestsPerSecond
 from Exceptions.VKServerIsNotResponding import VKServerIsNotResponding
 from Exceptions.LimitOfFriendAdditions import LimitOfFriendAdditions
 from Exceptions.CaptchaNeeded import CaptchaNeeded
@@ -36,6 +37,8 @@ class FriendsAdd:
                 elif 'error' in data:
                     if data['error']['error_code'] == 5:
                         raise VKTokenError
+                    elif data['error']['error_code'] == 6:
+                        raise TooManyRequestsPerSecond
                     elif data['error']['error_code'] == 9:
                         raise LimitOfFriendAdditions
                     elif data['error']['error_code'] == 14:
@@ -73,6 +76,8 @@ class FriendsAdd:
                 elif 'error' in data:
                     if data['error']['error_code'] == 5:
                         raise VKTokenError
+                    elif data['error']['error_code'] == 6:
+                        raise TooManyRequestsPerSecond
                     elif data['error']['error_code'] == 9:
                         raise LimitOfFriendAdditions
                     elif data['error']['error_code'] == 14:
